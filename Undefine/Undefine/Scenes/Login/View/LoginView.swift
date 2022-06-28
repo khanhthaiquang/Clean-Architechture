@@ -7,11 +7,14 @@
 
 import UIKit
 import MaterialComponents
+import RxSwift
 
 class LoginView: UIView {
     @IBOutlet var containerView: UIView!
     @IBOutlet weak var userNameTextfield: MDCOutlinedTextField!
     @IBOutlet weak var passwordTextfield: MDCOutlinedTextField!
+    @IBOutlet weak var btnLogin: UIButton!
+        
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
@@ -33,5 +36,6 @@ class LoginView: UIView {
         
         userNameTextfield.initBasic(with: "User name")
         passwordTextfield.initBasic(with: "Password")
+        
     }
 }

@@ -15,6 +15,7 @@ import Then
 final class LoginViewController: UIViewController, Bindable {
     
     // MARK: - IBOutlets
+    @IBOutlet weak var loginView: LoginView!
     
     // MARK: - Properties
     
@@ -35,6 +36,9 @@ final class LoginViewController: UIViewController, Bindable {
     // MARK: - Methods
     
     private func configView() {
+        loginView.btnLogin.rx.tap.subscribe(onNext: { [weak self] a in
+            
+        }).disposed(by: disposeBag)
     }
     
     func bindViewModel() {

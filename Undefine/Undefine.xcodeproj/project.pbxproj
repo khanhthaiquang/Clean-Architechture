@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A42A828645A3F00FF4B68 /* LoginValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A42A728645A3F00FF4B68 /* LoginValidate.swift */; };
+		040A42AB28645AF100FF4B68 /* LogginIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A42AA28645AF100FF4B68 /* LogginIn.swift */; };
+		040A42B02865B3D000FF4B68 /* LoginGeteWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A42AF2865B3D000FF4B68 /* LoginGeteWay.swift */; };
 		0435856B28461E3C007B4902 /* OutlineTextfield+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435856A28461E3C007B4902 /* OutlineTextfield+.swift */; };
 		0435856D28461ED5007B4902 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435856C28461ED5007B4902 /* Constants.swift */; };
 		04A8123D2834A8C600227F6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8123C2834A8C600227F6C /* AppDelegate.swift */; };
@@ -71,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A42A728645A3F00FF4B68 /* LoginValidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidate.swift; sourceTree = "<group>"; };
+		040A42AA28645AF100FF4B68 /* LogginIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogginIn.swift; sourceTree = "<group>"; };
+		040A42AF2865B3D000FF4B68 /* LoginGeteWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginGeteWay.swift; sourceTree = "<group>"; };
 		0435856A28461E3C007B4902 /* OutlineTextfield+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlineTextfield+.swift"; sourceTree = "<group>"; };
 		0435856C28461ED5007B4902 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		04A812392834A8C600227F6C /* Undefine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Undefine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +160,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040A42A928645ADC00FF4B68 /* Loggin */ = {
+			isa = PBXGroup;
+			children = (
+				040A42A728645A3F00FF4B68 /* LoginValidate.swift */,
+				040A42AA28645AF100FF4B68 /* LogginIn.swift */,
+			);
+			path = Loggin;
+			sourceTree = "<group>";
+		};
+		040A42AE2865B21F00FF4B68 /* LoginGateWays */ = {
+			isa = PBXGroup;
+			children = (
+				040A42AF2865B3D000FF4B68 /* LoginGeteWay.swift */,
+			);
+			path = LoginGateWays;
+			sourceTree = "<group>";
+		};
 		04A812302834A8C600227F6C = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +249,7 @@
 		04A8124D2834A8C600227F6C /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				040A42A928645ADC00FF4B68 /* Loggin */,
 				04A8124E2834A8C600227F6C /* UseCase.md */,
 			);
 			path = UseCases;
@@ -254,6 +278,7 @@
 		04A8125A2834A8C600227F6C /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
+				040A42AE2865B21F00FF4B68 /* LoginGateWays */,
 				04A8125B2834A8C600227F6C /* GatewaysAssembler.swift */,
 			);
 			path = Gateways;
@@ -612,12 +637,15 @@
 				04A812432834A8C600227F6C /* Assembler.swift in Sources */,
 				04A812732834A8C600227F6C /* MainUseCase.swift in Sources */,
 				04A8125C2834A8C600227F6C /* GatewaysAssembler.swift in Sources */,
+				040A42A828645A3F00FF4B68 /* LoginValidate.swift in Sources */,
 				04A812642834A8C600227F6C /* AppNavigator.swift in Sources */,
 				04A812712834A8C600227F6C /* MainNavigator.swift in Sources */,
 				04A812B22834ED9E00227F6C /* UIView+.swift in Sources */,
 				04A812572834A8C600227F6C /* APIOutput.swift in Sources */,
 				04A812AA2834CB7300227F6C /* LoginAssembler.swift in Sources */,
 				04A8127A2834A8C600227F6C /* UIViewController+.swift in Sources */,
+				040A42B02865B3D000FF4B68 /* LoginGeteWay.swift in Sources */,
+				040A42AB28645AF100FF4B68 /* LogginIn.swift in Sources */,
 				04A812622834A8C600227F6C /* AppAssembler.swift in Sources */,
 				04A812772834A8C600227F6C /* MainViewModel.swift in Sources */,
 				04A8125F2834A8C600227F6C /* Storyboards.swift in Sources */,
