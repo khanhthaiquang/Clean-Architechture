@@ -37,6 +37,6 @@ extension LoginAssembler where Self: DefaultAssembler {
     }
     
     func resolve() -> LoginUseCaseType {
-        return LoginUseCase(loginGateWay: resolve())
+        return LoginUseCase(loginGateWayType: resolve())
     }
 }

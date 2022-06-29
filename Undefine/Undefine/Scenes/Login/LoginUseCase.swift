@@ -6,11 +6,14 @@
 //
 
 import RxSwift
+import Dto
+import RxCocoa
 
 protocol LoginUseCaseType {
-    func doLoggin(_ username: String, _ password: String)
+    func doLoggin(_ username: String, _ password: String) -> Observable<Void>
     func validateUserName(_ username: String) -> Bool
     func validatePassword(_ password: String) -> Bool
+    func isEnableLogin(_ password: String, _ username: String) -> Bool
 }
 
 struct LoginUseCase: LoginUseCaseType, LoginUseCaseValidate, LogginIn {

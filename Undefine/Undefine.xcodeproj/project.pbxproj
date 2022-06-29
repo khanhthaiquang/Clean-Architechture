@@ -202,7 +202,6 @@
 		04A8123B2834A8C600227F6C /* Undefine */ = {
 			isa = PBXGroup;
 			children = (
-				04D580F5284F905300CEBBFC /* New Group */,
 				04A8123C2834A8C600227F6C /* AppDelegate.swift */,
 				04A8123E2834A8C600227F6C /* Podfile */,
 				04A812402834A8C600227F6C /* .swiftlint.yml */,
@@ -370,13 +369,6 @@
 				04A812B62834EFAD00227F6C /* LoginView.xib */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		04D580F5284F905300CEBBFC /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		AEDE708E7E6BD4063A66637D /* Pods */ = {

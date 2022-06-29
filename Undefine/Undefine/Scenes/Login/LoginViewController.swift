@@ -36,14 +36,36 @@ final class LoginViewController: UIViewController, Bindable {
     // MARK: - Methods
     
     private func configView() {
-        loginView.btnLogin.rx.tap.subscribe(onNext: { [weak self] a in
-            
-        }).disposed(by: disposeBag)
+        loginView.delegate = self
     }
     
     func bindViewModel() {
-        let input = LoginViewModel.Input()
+        let input = LoginViewModel.Input(loginTap: loginView.btnLogin.rx.tap.asDriver(),
+                                         name: loginView.userNameTextfield.rx.text.orEmpty.asDriver(),
+                                         pass: loginView.passwordTextfield.rx.text.orEmpty.asDriver())
         let output = viewModel.transform(input, disposeBag: disposeBag)
+        
+        output.$isLoginEnabled
+            .asDriver()
+            .drive(loginView.btnLogin.rx.isEnabled)
+            .disposed(by: disposeBag)
+        
+        output.$isLoading
+            .asDriver()
+            .drive(rx.isLoading)
+            .disposed(by: disposeBag)
+        
+        output.$error
+            .asDriver()
+            .unwrap()
+            .drive(rx.error)
+            .disposed(by: disposeBag)
+    }
+}
+
+extension LoginViewController: LoginViewDelegate {
+    func textfieldEditing(textfield: UITextField) {
+        print(textfield.text)
     }
 }
 
