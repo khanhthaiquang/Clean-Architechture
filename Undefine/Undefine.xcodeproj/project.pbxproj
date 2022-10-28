@@ -55,6 +55,7 @@
 		3E7CA18C290B83A300DB9DB2 /* Bundle+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA18B290B83A300DB9DB2 /* Bundle+.swift */; };
 		3E7CA18E290B841000DB9DB2 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA18D290B841000DB9DB2 /* Date+.swift */; };
 		3E7CA190290B848300DB9DB2 /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA18F290B848300DB9DB2 /* Image+.swift */; };
+		3E7CA192290B84CA00DB9DB2 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA191290B84CA00DB9DB2 /* UIColor+.swift */; };
 		C5E2B07577A3B43AF88FA36B /* Pods_Undefine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A511BEE3CC60774FC9D26BD8 /* Pods_Undefine.framework */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +131,7 @@
 		3E7CA18B290B83A300DB9DB2 /* Bundle+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+.swift"; sourceTree = "<group>"; };
 		3E7CA18D290B841000DB9DB2 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		3E7CA18F290B848300DB9DB2 /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		3E7CA191290B84CA00DB9DB2 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4C0DDEC48A733283F51B1418 /* Pods-Undefine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Undefine.debug.xcconfig"; path = "Target Support Files/Pods-Undefine/Pods-Undefine.debug.xcconfig"; sourceTree = "<group>"; };
 		A511BEE3CC60774FC9D26BD8 /* Pods_Undefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Undefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98987FAD3C5F49269249264 /* Pods-UndefineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UndefineTests.release.xcconfig"; path = "Target Support Files/Pods-UndefineTests/Pods-UndefineTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -315,6 +317,7 @@
 				3E7CA18B290B83A300DB9DB2 /* Bundle+.swift */,
 				3E7CA18D290B841000DB9DB2 /* Date+.swift */,
 				3E7CA18F290B848300DB9DB2 /* Image+.swift */,
+				3E7CA191290B84CA00DB9DB2 /* UIColor+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -642,6 +645,7 @@
 				04A8125F2834A8C600227F6C /* Storyboards.swift in Sources */,
 				04A812532834A8C600227F6C /* APIError.swift in Sources */,
 				04A812592834A8C600227F6C /* APIService.swift in Sources */,
+				3E7CA192290B84CA00DB9DB2 /* UIColor+.swift in Sources */,
 				04A8127C2834A8C600227F6C /* UIViewController+Rx.swift in Sources */,
 				04A812AD2834CB7300227F6C /* LoginViewController.swift in Sources */,
 				04A8123D2834A8C600227F6C /* AppDelegate.swift in Sources */,
