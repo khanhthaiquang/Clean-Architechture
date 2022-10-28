@@ -26,6 +26,8 @@ def pods
     
     #keyboard
     pod 'IQKeyboardManagerSwift'
+    pod 'Firebase/Messaging', "8.0.0"
+
 end
 
 def test_pods

@@ -51,6 +51,7 @@
 		04A812B72834EFAD00227F6C /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A812B62834EFAD00227F6C /* LoginView.xib */; };
 		380F15E238A3E47720FC3B00 /* Pods_UndefineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B6842575F0F9AEE85523B /* Pods_UndefineTests.framework */; };
 		3E7CA188290B733B00DB9DB2 /* LocalAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA187290B733B00DB9DB2 /* LocalAuthManager.swift */; };
+		3E7CA18A290B7F4A00DB9DB2 /* GMONotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7CA189290B7F4A00DB9DB2 /* GMONotificationsManager.swift */; };
 		C5E2B07577A3B43AF88FA36B /* Pods_Undefine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A511BEE3CC60774FC9D26BD8 /* Pods_Undefine.framework */; };
 /* End PBXBuildFile section */
 
@@ -122,6 +123,7 @@
 		04A812B62834EFAD00227F6C /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		0BD684D8ED5BE755C23C5042 /* Pods-Undefine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Undefine.release.xcconfig"; path = "Target Support Files/Pods-Undefine/Pods-Undefine.release.xcconfig"; sourceTree = "<group>"; };
 		3E7CA187290B733B00DB9DB2 /* LocalAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthManager.swift; sourceTree = "<group>"; };
+		3E7CA189290B7F4A00DB9DB2 /* GMONotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GMONotificationsManager.swift; sourceTree = "<group>"; };
 		4C0DDEC48A733283F51B1418 /* Pods-Undefine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Undefine.debug.xcconfig"; path = "Target Support Files/Pods-Undefine/Pods-Undefine.debug.xcconfig"; sourceTree = "<group>"; };
 		A511BEE3CC60774FC9D26BD8 /* Pods_Undefine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Undefine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98987FAD3C5F49269249264 /* Pods-UndefineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UndefineTests.release.xcconfig"; path = "Target Support Files/Pods-UndefineTests/Pods-UndefineTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -353,6 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				3E7CA187290B733B00DB9DB2 /* LocalAuthManager.swift */,
+				3E7CA189290B7F4A00DB9DB2 /* GMONotificationsManager.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -630,6 +633,7 @@
 				04A8127C2834A8C600227F6C /* UIViewController+Rx.swift in Sources */,
 				04A812AD2834CB7300227F6C /* LoginViewController.swift in Sources */,
 				04A8123D2834A8C600227F6C /* AppDelegate.swift in Sources */,
+				3E7CA18A290B7F4A00DB9DB2 /* GMONotificationsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
