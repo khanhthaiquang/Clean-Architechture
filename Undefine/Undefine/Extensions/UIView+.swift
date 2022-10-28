@@ -202,3 +202,80 @@ extension UIView {
         return nil
     }
 }
+
+// MARK: - Properties
+
+public extension UIView {
+
+    /// Width of view.
+    var width: CGFloat {
+        set(width) {
+            var frame: CGRect = self.frame
+            frame.size.width = width
+            self.frame = frame
+        }
+        get {
+            return self.frame.size.width
+        }
+    }
+
+    /// Height of view.
+    var height: CGFloat {
+        set(height) {
+            var frame: CGRect = self.frame
+            frame.size.height = height
+            self.frame = frame
+        }
+        get {
+            return self.frame.size.height
+        }
+    }
+
+    /// Left of view.
+    var left: CGFloat {
+        set(x) {
+            var frame: CGRect = self.frame
+            frame.origin.x = x
+            self.frame = frame
+        }
+        get {
+            return self.frame.origin.x
+        }
+    }
+
+    /// Top  of view.
+    var top: CGFloat {
+        set(y) {
+            var frame: CGRect = self.frame
+            frame.origin.y = y
+            self.frame=frame
+        }
+        get {
+            return self.frame.origin.y
+        }
+    }
+
+    /// Right of view.
+    var right: CGFloat {
+        set(right) {
+            var frame: CGRect = self.frame
+            frame.origin.x = right - self.width
+            self.frame = frame
+        }
+        get {
+            return self.frame.origin.x + self.frame.size.width
+        }
+    }
+
+    /// Bottom of view.
+    var bottom: CGFloat {
+        set(bottom) {
+            var frame: CGRect = self.frame
+            frame.origin.y = bottom - self.height
+            self.frame = frame
+        }
+        get {
+            return self.frame.origin.y + self.frame.size.height
+        }
+    }
+}
